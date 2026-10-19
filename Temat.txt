@@ -1,0 +1,15 @@
+Temat: Offline ZTM Timetable
+
+Cel projektu
+
+Nie każdy posiada samochód, a nawet osoby, które go mają, nie zawsze mogą z niego korzystać. Dlatego komunikacja publiczna, zarówno miejska, jak i podmiejska, jest dla wielu osób ważnym środkiem transportu.
+
+Problem pojawia się w sytuacji, gdy nagle tracimy dostęp do Internetu i nie możemy sprawdzić rozkładu jazdy. Jest to szczególnie uciążliwe podczas podróży z przesiadkami, kiedy liczy się każda minuta. Czasami potrzebujemy sprawdzić połączenie jeszcze przed dotarciem na przystanek, aby wiedzieć, kiedy wyjść z domu lub czy zdążymy na kolejny autobus albo tramwaj.
+
+Przykładowo, podczas podróży autobusem linii 728 lub 729 mogę potrzebować przesiąść się na węźle Ogrody. Zwykle otworzyłbym stronę internetową, wpisał nazwę lub kod przystanku i sprawdził przewidywaną godzinę przyjazdu autobusu oraz odjazdu kolejnego tramwaju. Jeśli autobus ma przyjechać na Ogrody o godzinie 9:58, a tramwaj linii 2 odjeżdża o 10:02, teoretycznie mam cztery minuty na przesiadkę. Bez dostępu do Internetu sprawdzenie takiej informacji może być znacznie trudniejsze.
+
+Proponowane rozwiązanie
+
+Rozwiązaniem będzie stworzenie aplikacji internetowej "Offline ZTM Timetable", która umożliwi sprawdzanie rozkładów jazdy komunikacji miejskiej bez konieczności stałego dostępu do Internetu.
+
+Aplikacja będzie przechowywać dane rozkładowe lokalnie, dzięki czemu użytkownik będzie mógł wyszukiwać przystanki, sprawdzać godziny odjazdów oraz planować podróże z przesiadkami. Program będzie również obliczał przewidywaną godzinę przyjazdu na podstawie zapisanych rozkładów i pomagał ocenić, czy przesiadka jest możliwa.
