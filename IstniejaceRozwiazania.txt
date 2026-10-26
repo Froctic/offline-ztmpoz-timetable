@@ -1,0 +1,13 @@
+Istniejące rozwiązania
+
+Istnieje już wiele aplikacji i systemów umożliwiających sprawdzanie rozkładów jazdy transportu publicznego na podstawie plików GTFS. Przykładami są system PEKA i jego funkcja Wirtualnego Monitora, Czynaczas, aplikacja KiedyPojadę oraz planer podróży Jakdojade.
+
+Rozwiązania te wykorzystują dane GTFS, a także GTFS-RT, które umożliwiają uwzględnianie aktualnych informacji o sytuacji w transporcie publicznym. Jednak ich działanie w dużej mierze zależy od dostępu do Internetu. Po utracie połączenia sieciowego dostęp do części funkcji może być ograniczony lub niemożliwy.
+
+Pomysł mojego projektu polega na zapisaniu plików GTFS lokalnie i umożliwieniu korzystania z zawartych w nich danych bezpośrednio w trybie offline. Dzięki temu użytkownik mógłby sprawdzać rozkłady jazdy również bez dostępu do Internetu.
+
+Podobne rozwiązanie opracowałem już wcześniej w ramach studiów. Była to aplikacja do edycji plików GTFS (https://gamejolt.com/games/SRG-5000p/834902 | "ZTM Poznań GTFS Editor").Po otwarciu plików użytkownik miał możliwość przeglądania zawartych w nich informacji z perspektywy pasażera. Można było sprawdzić między innymi odjazdy z wybranego przystanku dla określonego dnia, a także przeanalizować cały rozkład jazdy dla wybranej zmiany.
+
+Ograniczeniem tego rozwiązania był sposób prezentowania danych. Aplikacja wyświetlała pełną listę odjazdów, zamiast skupiać się na najbliższych odjazdach, które są najbardziej przydatne dla pasażera oczekującego na przystanku.
+
+Moje obecne rozwiązanie ma rozwijać tę koncepcję poprzez skupienie się na wygodnym sprawdzaniu najbliższych odjazdów w trybie offline. W ten sposób połączy możliwość korzystania z lokalnie zapisanych danych GTFS z funkcjonalnością typową dla tablic odjazdów.
